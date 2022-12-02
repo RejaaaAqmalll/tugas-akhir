@@ -1,0 +1,53 @@
+
+
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  .alert{
+    max-width: 300px;
+  }
+  .container-anm {
+    animation: transisiMasuk 0.55s ease;
+  }
+  @keyframes transisiMasuk {
+    from {
+        opacity: 0;
+        transform: translate(0, 20px);
+    }
+     to {
+        opacity: 1;
+        transform: translate(0,0);
+     }
+  }
+  
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .btn-lg{
+      background-color: #FB9F61;
+      border: 1px solid black;
+  }
+  .btn-lg:hover{
+      background-color: #fff;
+      border: 1px solid black;
+  }
+  .logo-login{
+    display: flex;
+    margin-left: 0px;
+  }
