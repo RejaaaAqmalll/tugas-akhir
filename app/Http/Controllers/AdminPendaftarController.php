@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Ekstrakulikuler;
 use App\Models\Pendaftar;
 use Illuminate\Http\Request;
 
@@ -83,9 +82,8 @@ class AdminPendaftarController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Ekstrakulikuler $ekskul)
+    public function destroy($id)
     {
-        Ekstrakulikuler::destroy($ekskul->id);
-        return redirect('admin.pendaftar');
+        //
     }
 }
